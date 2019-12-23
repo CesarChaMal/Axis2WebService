@@ -1,0 +1,10 @@
+https://www.javahelps.com/2016/04/apache-axis2-hello-world.html
+
+cd C:\IdeaProjects\Axis2WebService\out\production\Server
+cd out/production/Server
+jar -cvf HelloService.aar *
+cd C:\apache-axis2-1.7.9\repository\services
+$AXIS2_HOME/bin/axis2server.sh
+%AXIS2_HOME%\bin\axis2server.bat
+sh $AXIS2_HOME/bin/wsdl2java.sh -uri http://localhost:8080/axis2/services/HelloService?wsdl -o .
+%AXIS2_HOME%\bin\wsdl2java.bat -uri http://localhost:8080/axis2/services/HelloService?wsdl -o .
