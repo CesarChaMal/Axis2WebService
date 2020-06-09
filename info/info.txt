@@ -1,6 +1,6 @@
 https://www.javahelps.com/2016/04/apache-axis2-hello-world.html
 
-cd C:\IdeaProjects\Axis2WebService\out\production\Server
+cd E:\IdeaProjects\Axis2WebService\out\production\Server
 cd out/production/Server
 jar -cvf HelloService.aar *
 cd C:\apache-axis2-1.7.9\repository\services
